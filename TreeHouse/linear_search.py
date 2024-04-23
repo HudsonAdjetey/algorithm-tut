@@ -18,3 +18,9 @@ def verify(index):
         print("Target  Found at Position : ", str(index))
     else:
         print("Target not found in list")
+
+list_container = [3, 5,6,7,90, 23]
+target = 7
+
+linear_fn = linear_search(list_container, target)
+verify(linear_fn)
